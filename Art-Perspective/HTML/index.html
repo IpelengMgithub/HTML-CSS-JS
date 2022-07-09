@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art-Perspective</title>
     <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&family=Lato:ital@1&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
+
+    <!--The navbar section-->
     <nav class="navbar">
         <div class="navbar_contain">
-            <a href="/" id = "navbar_logo">ART-PERSPECTIVE</a>
+            <a href="/" id = "navbar_logo">
+                ARTISTIC</a>
             <div class = "navbar_toggle" id = "mobile-menu">
                 <span class = "bar"></span>
                 <span class = "bar"></span>
@@ -21,10 +28,10 @@
                     <a href="/" class = "navbar_links">home</a>
                 </li>
                 <li class = "navbar_item">
-                    <a href="../HTML/tech.html" class = "navbar_links">tech</a>
+                    <a href="../HTML/tech.html" class = "navbar_links">artWork</a>
                 </li>
                 <li class = "navbar_item">
-                    <a href="/" class = "navbar_links">products</a>
+                    <a href="/" class = "navbar_links">creators</a>
                 </li>
                 <li class = "navbar_button">
                     <a href="/" class = "button">sign-up</a>
@@ -32,6 +39,43 @@
             </ul>
         </div>
     </nav>
-    
+
+    <!--This will be the home section-->
+    <div class="main">
+        <div class="main_contain">
+            <div class="main_content">
+                <h1>THE ARTISTIC WORLD</h1>
+                <h2>CREATIVITY AND IMAGINATION</h2>
+                <p>See how the art industry is changing the world</p>
+                <button class = "main_button">
+                    <a href="/">Explore the vision</a>
+                </button>
+            </div>
+            <div class="main_image_container">
+                <img src="../IMAGES/mainImage.svg" alt="main image" id = "main_image">
+            </div>
+        </div>
+    </div>
+
+    <!--The different types of art section-->
+    <div class="art-work">
+        <h1>See diffent types of art-work</h1>
+        <div class="art-work_contain">
+            <div class="art-work-card">
+                <h2>embrace the sculptured art</h2>
+                <p>An artistic form in which hard or plastic materials are worked into three-dimensional art objects.</p>
+                <button>view</button>
+            </div>
+            <div class="art-work-card">
+                <h2>abstract art-work</h2>
+                <p>abstract means to separate or withdraw something from something else</p>
+                <button>view</button>
+            </div>
+        </div>
+    </div>
+
+    <!--The footer section-->
+
+    <script src="../JS/app.js"></script>
 </body>
 </html>
